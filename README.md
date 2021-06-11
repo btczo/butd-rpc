@@ -1,18 +1,18 @@
-digibyted-rpc.js
+butd-rpc.js
 ===============
 
 [![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
 [![Build Status](https://img.shields.io/travis/bitpay/bitcoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcoind-rpc)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcoind-rpc?branch=master)
 
-A client library to connect to DigiByte Core RPC in JavaScript.
+A client library to connect to BuKt Core RPC in JavaScript.
 
 ## Get Started
 
-digibyted-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+butd-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install digibyted-rpc
+npm install butd-rpc
 ```
 
 ## Examples
@@ -20,7 +20,7 @@ npm install digibyted-rpc
 ```javascript
 var run = function() {
   var bitcore = require('bitcore');
-  var RpcClient = require('digibyted-rpc');
+  var RpcClient = require('butd-rpc');
 
   var config = {
     protocol: 'http',
